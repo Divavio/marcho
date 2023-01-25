@@ -29,6 +29,16 @@
 }
 
 @font-face {
+    font-family: 'Roboto-Regular';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Roboto-Regular'),
+        url(../fonts/Roboto-Medium.woff2) format('woff2'),
+        url(../fonts/Roboto-Medium.woff) format('woff');
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Roboto-Bolt';
     font-weight: 700;
     font-style: normal;
